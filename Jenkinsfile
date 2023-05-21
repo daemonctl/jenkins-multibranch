@@ -8,7 +8,7 @@ pipeline {
                """
            }
        }
-      stage('Deploy Code to Dev') {
+      stage('Deploy Code to UAT') {
           steps {
                sh """
                echo "Deploying Code"
